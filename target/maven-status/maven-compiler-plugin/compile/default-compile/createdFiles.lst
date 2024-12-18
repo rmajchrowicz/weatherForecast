@@ -1,0 +1,9 @@
+com\example\weatherForecast\util\EnergyCalculator.class
+com\example\weatherForecast\controller\WeatherController.class
+com\example\weatherForecast\model\DailyForecast.class
+com\example\weatherForecast\excepction\ErrorResponse.class
+com\example\weatherForecast\model\WeeklySummary.class
+com\example\weatherForecast\model\WeatherResponse.class
+com\example\weatherForecast\service\WeatherService.class
+com\example\weatherForecast\WeatherForecastApplication.class
+com\example\weatherForecast\excepction\ApiExceptionHandler.class
