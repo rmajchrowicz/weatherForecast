@@ -3,13 +3,11 @@ package com.example.weatherForecast.controller;
 import com.example.weatherForecast.model.WeatherResponse;
 import com.example.weatherForecast.model.WeeklySummary;
 import com.example.weatherForecast.service.WeatherService;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/weather")
+@CrossOrigin
 public class WeatherController {
 
     private final WeatherService weatherService;
